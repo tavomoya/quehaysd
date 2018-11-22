@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Eventos</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Proximos Eventos</h3>
+
+  <ion-list>
+    <button ion-item *ngFor="let item of items">
+      {{item.name}}
+      <div item-end>
+        {{item.date}}
+      </div>
+    </button>
+  </ion-list>
+  
+
+</ion-content>

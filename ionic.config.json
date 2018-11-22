@@ -1,0 +1,13 @@
+{
+  "name": "QueHaySD",
+  "integrations": {
+    "cordova": {}
+  },
+  "proxies": [
+    {
+      "path": "*/events",
+      "proxyUrl": "https://quehaysd.herokuapp.com/events"
+    }
+  ],
+  "type": "ionic-angular"
+}
